@@ -80,7 +80,7 @@ public class Biblioteca {
 
 	}
 
-	// Buscar libro
+	// Buscar libro por título
 	public Libro buscarLibro(String titulo) {
 		for (Libro libro : this.libros) {
 			if (libro.getTitulo().equalsIgnoreCase(titulo)) {
