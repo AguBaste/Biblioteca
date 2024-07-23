@@ -37,7 +37,7 @@ public class Biblioteca {
 				System.out.println("El género del libro no puede estar vacío.");
 				return;
 			}
-			// Validación de año de publicación
+			// Validación del año de publicación
 			if (libro.getAnoPublicacion() < 0) {
 				System.out.println("El año de publicación no puede estar vacío.");
 				return;
@@ -50,7 +50,7 @@ public class Biblioteca {
 
 	}
 
-	// Listar los libros
+	// Listar los libros 
 	public void listarLibros() {
 		if (this.libros.isEmpty()) {
 			System.out.println("No hay libros guardados.");
