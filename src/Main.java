@@ -8,6 +8,7 @@ public class Main {
 	// Creo el objeto scan para leer la consola
 	static Scanner scan = new Scanner(System.in);
 	
+	//Método para imprimir el menú por pantalla 
 	private static void imprimirMenu() {
 		System.out.println("Menú de opciones:"); 
 		imprimirRenglon();
@@ -20,6 +21,7 @@ public class Main {
 		System.out.println("Ingrese una opción...");
 	}
 	
+	//Método para imprimir un renglón echo de ******
 	public static void imprimirRenglon() {
 		System.out.println("************************");
 		}
