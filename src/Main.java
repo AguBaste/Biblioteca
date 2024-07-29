@@ -92,7 +92,8 @@ public class Main {
 				biblioteca.eliminarLibro(titulo);
 				break;
 			case 5:
-				System.out.println("Saliendo..."); 
+				System.out.println("Saliendo...");
+				Systeo.out.println("Adios");
 				break;
 			default:
 				System.out.println("Ingrese una opción válida. Intente nuevamente");
