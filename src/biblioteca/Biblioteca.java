@@ -42,6 +42,7 @@ public class Biblioteca {
 				System.out.println("El año de publicación no puede estar vacío.");
 				return;
 			}
+			// Añado el libro a la lista
 			this.libros.add(libro);
 			System.out.println("Libro agregado correctamente.");
 		} else {
